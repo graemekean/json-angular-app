@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="page=header">
+       <h1>This is the Single Post Page</h1>
+    </div>
+    <article>
+    <div class="panel panel-default">
+        <div class="panel-heading clearfix">
+            <h1 class="panel-title" style="padding-top: 6px;">{{ post.title }}</h1>
+        </div>
+        <div class="panel-body">
+            <p>{{ post.body }}</p>
+            <p>User: {{ post.userId }}</p>
+        </div>
+    </article>
+    <section>
+
+        <div class="panel panel-default pull-right" style="width:90%;">
+            <div class="panel-heading clearfix">
+            Comments:
+            </div>
+            <div class="panel-body">
+    	       <ul class="list-group">
+                    <li class="list-group-item" ng-repeat="comment in comments">
+                        <h5> <strong>{{ comment.name }}</strong></h5>
+                        <p> {{ comment.body }} </p>
+                        <p><em>Comment posted by : {{ comment.email }}</em></p>
+                    </li>
+                </ul>
+
+             </div>
+
+        </div>
+    </div>
+ 
+    </section>
+    
+</div>

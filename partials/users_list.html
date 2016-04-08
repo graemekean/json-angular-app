@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="page=header">
+        <h1>This is the User Index Template</h1>
+    </div>
+  
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="control-toolbar pull-right">
+                <div class="searchbox">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true" style="margin-right:10px; color:white;"></span><input style="margin-top:-4px;" type="text" ng-model="searchUsers">
+                </div>
+            </div>
+            All Users
+        </div>
+        <div class="panel-body">
+
+
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 border-bottom" ng-repeat="user in userlist | filter:searchUsers">
+                    <a href="#/users/{{userlist.indexOf(user) + 1}}">
+                    <h3> <strong>{{ user.username }}</strong></h3></a>
+                    <strong>Name: {{ user.name }}</strong>
+                    <p><strong>Email: </strong><a href="mailto:#">{{ user.email }}</a></p>
+                    <p><strong>Tel: </strong><a href="tel:"+ "{{ user.phone }}">{{ user.phone }}</a>
+                    <address>
+                    <p><strong>Address: </strong>{{ user.address.street }}<br>
+                    City: {{ user.address.city }}<br>
+                    Postcode: {{ user.address.zipcode }} </p>
+                    </address>
+                    <p><strong>Company: </strong>{{ user.company.name }}<br>
+                    <strong>Company Catchphrase: </strong><em>{{ user.company.catchPhrase }}</em></p> 
+                            
+                                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="page=header">
+        <h1>This is the Posts Index Template</h1>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="button-toolbar pull-right">
+                <input type="button" class="btn btn-primary btn-sm pull right" value="Add New Post" ng-click="showNewPostForm()">
+            </div>
+            All Posts
+        </div>
+         
+        <div class="panel-body">      
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="post in postslist | filter:searchPosts">
+                    <a href="#/posts/{{postslist.indexOf(post) + 1}}">
+                    <article>
+                    <h3> <strong>{{ post.title }}</strong></h3></a>
+                    <p> {{ post.body }} </p>
+                    </article>
+                </li>
+            </ul>
+    
+        </div>
+    </div>
+</div>
+

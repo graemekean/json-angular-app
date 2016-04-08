@@ -1,0 +1,33 @@
+
+<!-- <div class="modal-header">
+<h1>Create New Post</h1>
+</div> -->
+<div class="modal-body">
+	<form class="form-horizontal" role="form">
+		<fieldset>
+		<legend>Create a New Post</legend>
+    	<div class="form-group">
+        	<label for="postTitle" class="col-sm-3 control-label">Title</label>
+        		<div class="col-sm-9">
+        			<input type="text" id="postTitle" name="postTitle" class="form-control"
+        			ng-model="editablePost.title"/>
+       			 </div>
+    	</div>
+
+    	<div class="form-group">
+        	<label for="postBody" class="col-sm-3 control-label">Body</label>
+        		<div class="col-sm-9">
+        			<textarea name="postBody" id="postBody" class="form-control" rows="5" ng-model="editablePost.body"/>
+       			</div>
+       	</div>
+		</fieldset>
+	</form>
+</div>
+<div class="modal-footer">
+	<div class="col-sm-offset-3 col-sm-9">
+	<input type="button" class="btn btn-default" value="Cancel" ng-click="cancelForm()"/>
+	<input type="submit" class="btn btn-primary" value="Submit" ng-click="submitForm()"/>
+	
+	</div>
+</div>
+

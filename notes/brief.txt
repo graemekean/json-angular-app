@@ -1,0 +1,28 @@
+The Storm ID Front-end Developer Exercise
+This exercise is designed to allow you to show us your Front-end knowledge and experience within a real world example.
+
+Introduction
+Your task is to create a single page app using whatever libraries you wish. The app should:
+
+- Pull data from the JSONPlaceholder(http://jsonplaceholder.typicode.com/) API
+- Display what is returned 
+- Include some basic interaction
+- Include a form to POST back to the API
+- Be responsive
+- Support IE9+
+
+Optional nice to haves:
+- Have a nice UI
+- Have error handling
+- Use test frameworks
+
+What to consider
+Consider commenting your code explaining why your have take a particular approach. A README.md file is a good idea. 
+
+What we are looking for
+We want to see how you make decisions and solve problems. It’s important that you are confident and can back up your coding decisions. The libraries, tools and approaches you chose will be used as discussion points during an interview.
+
+How to submit your work
+Create a repository on Github and share the link with us. Remember to include a README.md with any instructions on how to run your app.
+
+We look forward to seeing what you come up with!

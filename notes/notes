@@ -1,0 +1,70 @@
+MOSCOW CHART FOR TASK
+
+MUST
+
+Build a SINGLE PAGE Application SPA
+
+Support IE9+
+Be Responsive
+Get data from the jsonplaceholder api and output that data to the view
+Post data to the same api using a form
+Include basic interaction
+
+SHOULD
+
+Have a nice UI
+Have error handling
+Have a test framework
+
+COULD
+
+Have user authentication - like Devise - probably Oauth
+	- signup registration
+	- authentication
+
+WOULD
+
+Have access to proper data
+Have UCD
+
+INITIAL THOUGHTS
+
+COMPETENCIES:
+
+Identify the best technology for the task - since none were provided.
+
+I'll be using Angular because I'm creating a Single Page Application. Angular 1.3 is supported in IE9+, so if I stick to the core features everything should be fairly well supported across most systems. 
+
+An awareness of the seven RESTFul routes - I assume to demonstrate that I can interact with ASP.NET developers building the back end.
+I have two other projects on Github where I built applications based on RESTful concepts. My focus on those was to learn the backend technologies.
+
+Demonstrate an awareness of reponsive design principles.
+My initial feelings are to style this rather than use Bootstrap - to show that I can hand code CSS. However, given that this is a mockup and not a bespoke solution; it's probably best to use a framework like Bootstrap - in this case it kills 2 birds with one stone - the nice UI and the responsiveness.
+
+Demonstrate a competency with Git.
+Show that I can make my work available in a format that is readable and easy to view. By using Angular and keeping all the logic on the client side, the project should be accessible - from a developers perspective. Angular runs in Apache with no setup or dependencies. I might load onto my own server and share the link along with the GitHub link, for easy viewing with no setup or download.
+
+Demonstrate an awareness of testing single page applications.
+Jasmine at CodeClan.
+Because this task is to have built-in tests I might use Yeoman (yo) with grunt -  simplifies and automates testing.
+The best test framework for Angular seems to be Jasmine or Protractor - I've used Jasmine in Rails Apps so I assume the same rules apply.
+
+Demonstrate error handling and good practices in laying out code - heavily commented.
+
+
+Removed Jasmine files
+
+<script src="Scripts/jasmine/jasmine.js"></script>
+<script src="Scripts/jasmine/jasmine-html.js"></script>
+<script src="Scripts/jasmine/boot.js"></script>
+
+
+
+
+
+
+
+
+
+
+

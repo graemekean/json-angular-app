@@ -1,0 +1,110 @@
+body { 
+  padding-top: 70px; 
+  padding-bottom: 50px;
+
+ 
+  /*background: url(https://edinburgh-chamber-assets.s3.amazonaws.com/sites/55896821a2cc3d709c000002/pages/55896821a2cc3d709c000004/files/ECC-Homepage.jpg) center center fixed;*/
+    background: url(http://www.nbnweathershots.com.au/sites/default/files/jok/06-08-2010%20105.jpg) center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #9d9d9d;
+    background-color:none;
+}
+
+h1, h4 {
+  color:white;
+  text-shadow: 2px 2px #000;
+}
+h2, h3{
+  color:#222;
+}
+
+.page-header {
+
+    border-bottom: 1px solid #eee;
+}
+
+.list-group-item {
+       /*border: 1px solid #fff;
+       border-bottom: 1px solid #000;
+       border-top:none;*/
+       border-left:none;
+       border-right:none;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: inherit;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #000;
+}
+
+.navbar-fixed-top {
+  background-color: #222;
+    margin-right: 0px !important;
+    height: 55px;
+}
+
+.navbar-fixed-bottom {
+  min-height: 40px;
+  height: 40px;
+}
+
+.panel-default>.panel-heading {
+    color: white;
+    background-color: #222;
+    border-color: #ddd;
+}
+
+.copyrite {
+  margin-top: 8px;
+}
+
+.searchbox {
+  color: black;
+}
+
+.angular-google-map-container {
+        height: 300px;
+}
+
+.blackback {
+  background-color: #222;
+}
+
+#example-navbar-collapse {
+ background-color: #222;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #9d9d9d;
+    background-color: none;
+    border:none;
+}
+
+.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 3px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin-top:-3px;
+}
+
+.headingSearch {
+  
+  background-clip: blue;
+}
